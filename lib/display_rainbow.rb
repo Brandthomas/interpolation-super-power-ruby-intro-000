@@ -1,11 +1,10 @@
 # Write your #display_rainbow method here
-def display_rainbow (color)
-puts color = "R: #{color[red]}, O: #{color[orange]}, Y: #{color[yellow]}, G: #{color[green]}, B: #{color[blue]}, I: #{color[indigo]}, V: #{color[violet]}"
-"The first color in the display_rainbow is #{color[0]}"
-"The second color in the display_rainbow is #{color[1]}"
-"The third color in the display_rainbow is #{color[2]}"
-"The fourth color in the display_rainbow is #{color[3]}"
-"The fifth color in the display_rainbow is #{color[4]}"
-"The sixth color in the display_rainbow is #{color[5]}"
-"The seventh color in the display_rainbow is #{color[6]}"
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+def display_rainbow(colors)
+
+   puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
+
 end
+
+display_rainbow(colors)
